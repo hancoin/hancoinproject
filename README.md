@@ -1,7 +1,31 @@
-
 HanCoin development tree
 
-HanCoin is a PoS-based cryptocurrency.
+HanCoin is a PoS-PoW-PoK-based cryptocurrency.
+
+Coin Suffix: HAN
+PoW Algorithm: POW/POS/POK/EMN
+PoW Period: 5,000 Network Initiation Blocks
+PoW Median Target Spacing: 64 Seconds
+PoW Difficulty Retarget: 2 Blocks
+Elastic Masternodes: 5 EMN
+Full Confirmation: 60 Blocks      
+Required Masternode Coins : 236    
+PoS Algorithm: POS/POW/POK/EMN
+PoS Target Spacing: 64 Seconds
+PoS Difficulty Retarget: 2 Blocks   
+PoS Reward: Varied
+PoS Min: 1 Day
+PoS Max: Unlimited
+Total Coins: 165200000 HAN (under the burning & staking)
+Block Size: 2 Mega-bytes (MB)
+EMN Reward: 236 HAN
+MainNet Parameters
+P2P Port = 38218
+RPC Port = 38218
+TestNet Parameters
+P2P Port = 28218
+RPC Port = 28218
+
 
 Development process
 ===========================
