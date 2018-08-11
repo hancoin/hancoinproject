@@ -1,8 +1,7 @@
 src/*.exe
-src/HanCoin
-src/HanCoind
-src/test_HanCoin
-src/build.h
+src/hancoin
+src/hancoind
+src/test_hancoin
 .*.swp
 *.*~*
 *.bak
@@ -10,17 +9,26 @@ src/build.h
 *.orig
 *.o
 *.patch
-.HanCoin
-#compilation and Qt preprocessor part
+.hancoin
+
+# Compilation and Qt preprocessor part
 *.qm
 Makefile
-HanCoin-qt
-#resources cpp
+hancoin-qt
+Hancoin-Qt.app
+
+# Unit-tests
+Makefile.test
+hancoin-qt_test
+
+# Resources cpp
 qrc_*.cpp
-#qt creator
+
+# Qt creator
 *.pro.user
-#mac specific
+
+# Mac specific
 .DS_Store
 build
 
-!src/leveldb/Makefile
+!src/leveldb*/Makefile
