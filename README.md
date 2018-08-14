@@ -1,25 +1,26 @@
 Hancoin integration/staging tree
 ================================
 
-http://www.hancoin.org
+http://www.hancoin.io
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Hancoin Developers
+Copyright (c) 2009-2018 Bitcoin Developers
+Copyright (c) 2011-2018 Hancoin Developers
 
 What is Hancoin?
 ----------------
 
 Hancoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
-
-For more information, as well as an immediately useable, binary version of
-the Hancoin client sofware, see http://www.hancoin.org.
+Algorithm	Scrypt
+Type	PoW
+Coin name	Hancoin
+Coin abbreviation	HAN
+Address letter	H
+RPC port	41000
+P2P port	40999
+Block reward	236 coins
+Block halving	610000 blocks
+Coin supply	391571200 coins
+Premine amount	103651200 coins
 
 License
 -------
