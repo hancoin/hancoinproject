@@ -1,5 +1,5 @@
 # ssh_port_changer
-Additional optional but recommended scripts for the security of Hancoin Project Districts masternodes and nodes. These scripts change the SSH default port number 22 with a custom number chosen by the node owner and set up firewall and fail2ban in Linux Ubuntu server/VPS.
+Additional optional but recommended scripts for the security of Hancoin Project Elastic Masternodes and Elastic nodes. These scripts change the SSH default port number 22 with a custom number chosen by the node owner and set up firewall and fail2ban in Linux Ubuntu server/VPS.
 
 You can use these scripts before or after installing the masternode with the install.sh script, it is indifferent, you will first use them and first increase the security of your Virtual Machine and then the security of your node or masternode.
 
@@ -36,14 +36,14 @@ Warning: This script DISABLES the FIREWALL, DO NOT FORGET TO RUN AFTER THIS SCRI
 
 Do not forget that only after you are sure you have chosen the right new custom port number, you will be ready to run this first script and it's important that you have memorized and remember your custom number, because you will need to put it in the place of number 22 in the Putty or Bitvise box for example or in your SSH client to access the server again, clear? If you forget this number you can access (maybe) only using the VPS service provider web console, so beware!!!
 
-**First of all, do not forget to check NOW if your masternode is regularly active, if you have already installed it, with the usual commands you normally use, for example:**
+**First of all, do not forget to check NOW if your elastic masternode is regularly active, if you have already installed it, with the usual commands you normally use, for example:**
 
 ```
-Hancoin-cli masternode debug
+Hancoin-cli elasticmasternode debug
 ```
 This check will need to be done now before you start and then when you are finished, so you will realize that these scripts do not affect the proper functioning of your masternode.
 
-Now, after the choice of the port and after check of masternode (if you have already installed it) you can run the FIRST script with these commands:
+Now, after the choice of the port and after check of elasticmasternode (if you have already installed it) you can run the FIRST script with these commands:
 
 First command (copy and paste all the line, it's one single command, then press ENTER):
 ```
@@ -53,7 +53,7 @@ Second command (copy and paste all the line, it's one single command, then press
 ```
 bash ssh_changer_part_1.sh
 ```
-**Warning: This script will REBOOTS the server/VPS!
+**Warning: This script will REBOOTS the LOCALHOST/VPS!
 Warning: This script DISABLES the FIREWALL, DO NOT FORGET TO RUN AFTER THIS SCRIPT THE SECOND SCRIPT WITH PART 2 to enable again the firewall!!!**
 
 **************************************************************************************************************************************
@@ -90,6 +90,6 @@ Finally, do not forget to check again if your masternode is active (if you have 
 Hancoin-cli masternode debug
 ```
 
-Well, this time we just finished. If you need help or if you want to get in touch with the Hancoin Project Districts 3D Community you can find us in the official project forum https:/3dctalk.net/ and also through the Telegram HUB https:/t.me/coindevhan you can find all the groups (in various languages) and information channels for the project.
+Well, this time we just finished. If you need help or if you want to get in touch with the Hancoin Project Community you can find us in the official project site https:/hancoin.io and also through the Telegram HUB https:/t.me/coindevhan you can find all the groups (in various languages) and information channels for the project.
 
 Finally remember that the elastic masternode can be installed before or after using these additional scripts, so if you have already installed it only checks that everything is ok as explained above, while if you have not installed it you can now proceed with the normal installation of the masternode using the main install.sh script found in this repository.
