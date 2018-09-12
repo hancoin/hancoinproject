@@ -9,8 +9,8 @@ You can use these scripts before or after installing the masternode with the ins
 Step 1: Choose your custom port number!
 ****************************************
 
-Choose you new custom SSH port from 1024 to 65535 obviously excluding port 6695 and 6694 (the default Hancoin Project Districts nodes ports) and avoid IANA registered service numbers.
-For example you can choose a number from 1024 to 65535 and after you can search if it is a registered service number to avoid it at the following two links ((the first one has a search field at the bottom of the page):
+Choose you new custom SSH port from 1024 to 41000 obviously excluding port 6695 and 6694 (the default Hancoin Project Districts nodes ports) and avoid IANA registered service numbers.
+For example you can choose a number from 1024 to 41000 and after you can search if it is a registered service number to avoid it at the following two links ((the first one has a search field at the bottom of the page):
 
 https:/www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
 
