@@ -27,7 +27,7 @@
 
 # You need also to run the other script with PART 2 for a complete installation!
 
-# Script developed by Anthony Han "Hancoin Daemon" from Project Italian Community (Hancoin on Github).
+# Script developed by Anthony Han "Hancoin Daemon" from Hancoin Community (Hancoin on Github).
 
 # WARNING: This is the PART 1 (ssh_changer_part_1.sh)
 # after system reboot you need to run the PART 2 (ssh_changer_part_2.sh)
